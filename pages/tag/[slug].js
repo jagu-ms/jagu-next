@@ -5,8 +5,8 @@ import Pages from "components/Pages";
 import { useRouter } from "next/router";
 import { makeStyles, Typography,ButtonGroup, Button, Box } from "@material-ui/core";
 import { FormattedMessage } from "react-intl";
-import Link from "next/Link";
-import Head from "next/Head";
+import Link from "next/link";
+import Head from "next/head";
 import Tag from "models/tag";
 import dbConnect from "utils/dbConnect";
 

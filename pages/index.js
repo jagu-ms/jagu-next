@@ -5,7 +5,7 @@ import Pages from "components/Pages";
 import { useRouter } from "next/router";
 import { makeStyles, ButtonGroup, Typography, Button, Box } from "@material-ui/core";
 import { FormattedMessage } from "react-intl";
-import Link from "next/Link";
+import Link from "next/link";
 
 const useStyles = makeStyles((theme) => ({
   titleContainer: {
